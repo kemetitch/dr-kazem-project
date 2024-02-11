@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="sidebar">
+        <ul>
+          <li>
+            <a class="toggle-ul">
+              <i class="fa-solid fa-xmark"></i>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-table"></i>
+              <span>لوحة القيادة</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables.html">
+              <i class="fa-regular fa-calendar"></i>
+              <span>الجداول</span>
+            </a>
+          </li>
+          <li class="lecture">
+            <a href="lectures.html">
+              <i class="fa-solid fa-tv"></i>
+              <div>
+                <span>المحاضرات</span> <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </a>
+            <div>
+              <i class="fa-solid fa-calendar-days ps-2"></i>
+              <span>جدول المحاضرات</span>
+            </div>
+          </li>
+          <li>
+            <a href="#attendance">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>تسجيل الحضور</span>
+            </a>
+          </li>
+          <li>
+            <a href="duties.html" class="active">
+              <i class="fa-solid fa-book-open"></i>
+              <span>الواجبات</span>
+            </a>
+          </li>
+          <li>
+            <a href="quizs.html">
+              <i class="fa-solid fa-file"></i>
+              <span>الاختبارات</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-people-group"></i>
+              <span>المشاريع</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-gear"></i>
+              <span>الإعدادات</span>
+            </a>
+          </li>
+          <li>
+            <a href="exit.html">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <span>تسجيل الخروج</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="duties">
+        <!-- start head  -->
+        <div class="header">
+          <div class="info">
+            <h3>مرحبا د/ محمد</h3>
+            <span>البوابة الالكترونية للنظام الأكاديمي</span>
+          </div>
+          <div class="form">
+            <div>
+              <input
+                type="text"
+                placeholder="البحث...."
+                name="search"
+                id="search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="image">
+              <img src="images/Frame.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- end head  -->
+        <div class="main-content">
+          <div class="main-button">
+            اضافة واجب
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="duty-container">
+            <div class="duty">
+              <div class="duty-head">
+                <h5>الواجبات السابقة</h5>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+              <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+                  <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+            </div>
+           <div class="duty">
+              <div class="duty-head">
+                <h5>الواجبات السابقة</h5>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+              <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+                  <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+            </div>
+            <div class="duty">
+              <div class="duty-head">
+                <h5>الواجبات السابقة</h5>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+              <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+                  <div class="duty-body">
+                <div class="dropdown">
+                  <button
+                    class="btn1"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item text-end" href="#"
+                        ><i class="fa-solid fa-pencil px-2"></i> تعديل</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item d-flex text-end" href="#"
+                        ><i class="fa-regular fa-trash-can px-2"></i> حذف
+                      </a>
+                    </li>
+                  </ul>
+                            
+                </div>
+                <h5>الواجب الاول : الخطاب الخارجي</h5>
+                <p>المحاضره الاولي</p>
+                <button>مراجعة</button>
+                <div>
+                  <span><i class="fa-regular fa-clock"></i>اسبوع </span>
+                  <span class="duty-progress"> </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

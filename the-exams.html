@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+     <div class="sidebar">
+        <ul>
+          <li>
+            <a class="toggle-ul">
+              <i class="fa-solid fa-xmark"></i>
+            </a>
+          </li>
+          <li>
+            <a href="index.html" >
+              <i class="fa-solid fa-table"></i>
+              <span>لوحة القيادة</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables.html">
+              <i class="fa-regular fa-calendar"></i>
+              <span>الجداول</span>
+            </a>
+          </li>
+          <li class="lecture">
+            <a href="lectures.html">
+              <i class="fa-solid fa-tv"></i>
+              <div>
+                <span>المحاضرات</span> <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </a>
+            <div>
+              <i class="fa-solid fa-calendar-days ps-2"></i>
+              <span>جدول المحاضرات</span>
+            </div>
+          </li>
+          <li>
+            <a href="#attendance">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>تسجيل الحضور</span>
+            </a>
+          </li>
+          <li>
+            <a href="duties.html" >
+              <i class="fa-solid fa-book-open"></i>
+              <span>الواجبات</span>
+            </a>
+          </li>
+          <li>
+            <a href="quizs.html" class="active">
+              <i class="fa-solid fa-file"></i>
+              <span>الاختبارات</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" >
+              <i class="fa-solid fa-people-group"></i>
+              <span>المشاريع</span>
+            </a>
+          </li>
+             <li>
+            <a href="projects.html" >
+              <i class="fa-solid fa-gear"></i>
+              <span>الإعدادات</span>
+            </a>
+          </li>
+          <li>
+            <a href="exit.html">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <span>تسجيل الخروج</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="the-exams">
+        <!-- start header  -->
+        <div class="header">
+          <div class="info">
+            <h3>مرحبا د/ محمد</h3>
+            <span>البوابة الالكترونية للنظام الأكاديمي</span>
+          </div>
+          <div class="form">
+            <div>
+              <input
+                type="text"
+                placeholder="البحث...."
+                name="search"
+                id="search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="image">
+              <img src="images/Frame.png" alt="" />
+            </div>
+          </div>
+        </div>
+         <!-- end header  -->
+        <div class=" pt-4 main-content ">
+            <div class=" d-flex ">
+              <h6 class="p-2 text1 px-4 rounded-pill">الاختبارات</h6>
+              <h6 class="p-2 text2 px-4 me-2 rounded-pill">الاختبار الفصلي الاول</h6>
+            </div>
+            <div class="row pt-5 d-flex justify-content-end">
+              <div class="col-lg-2 col-md-3  col-5  pb-4 main-button">
+                <button type="button" class="btn btn-warning text-light">اضافة اختبار <i class="fa-solid fa-plus pe-3 "></i></button>
+              </div>
+            </div>
+          
+        <div class="card">
+          
+            <div class="student-grade">
+               <table class="fs-15   ">
+              <thead>
+                <tr >
+            <td scope="col">اسم المادة</td>
+            <td scope="col" class=" text-md-end  ">كود المادة</td>
+            <td scope="col">عدد الاسأله</td>
+            <td scope="col">مدة الاختبار</td>
+            <td scope="col">الدرجة النهائية</td>
+             <td scope="col">حالة ااختبار</td>
+             <td scope="col"></td>
+
+          </tr>
+              </thead>
+              <tbody>
+               <tr>
+            <td >الفيزياء</td>
+            <td  >٣٤٦</td>
+            <td >٢٠</td>
+            <td>٤٠ دقيقة</td>
+            <td>١٠٠</td>
+            <td><a href="#">تم العرض  </a></td>
+            <td></td>
+          </tr>
+             <tr>
+             <td >الفيزياء</td>
+            <td  >٣٤٦</td>
+            <td >٢٠</td>
+            <td>٤٠ دقيقة</td>
+            <td>١٠٠</td>
+            <td class=" a "><a href="#">قيد المراجعة</a></td>
+            <td> <i class="fa-solid fa-ellipsis-vertical  fs-5 "></i></td>
+          </tr>
+               <tr>
+            <td >الفيزياء</td>
+            <td  >٣٤٦</td>
+            <td >٢٠</td>
+            <td>٤٠ دقيقة</td>
+            <td>١٠٠</td>
+            <td><a href="#">تم العرض  </a></td>
+            <td></td>
+          </tr>
+             <tr>
+             <td >الفيزياء</td>
+            <td  >٣٤٦</td>
+            <td >٢٠</td>
+            <td>٤٠ دقيقة</td>
+            <td>١٠٠</td>
+              <td class=" a "><a href="#">قيد المراجعة</a></td>
+            <td> <i class="fa-solid fa-ellipsis-vertical  fs-5 "></i></td>          </tr>
+              <tr>
+             <td >الفيزياء</td>
+            <td  >٣٤٦</td>
+            <td >٢٠</td>
+            <td>٤٠ دقيقة</td>
+            <td>١٠٠</td>
+            <td class=" a "><a href="#">قيد المراجعة</a></td>
+            <td> <i class="fa-solid fa-ellipsis-vertical  fs-5 "></i></td>          </tr>
+          
+              </tbody>
+            </table>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
