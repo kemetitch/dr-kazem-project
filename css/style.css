@@ -779,10 +779,23 @@ textarea {
     margin: 0;
   }
 }
-.lect .main-button {
-  margin-top: 100px;
+.lect .drop-shadow {
+  border-radius: 22px;
+  box-shadow: #0000000d 0px 3px 8px;
+  width: 100%;
+  height: 76px;
 }
-
+.lect .main-button .btn-warning {
+  width: 177px;
+  border-radius: 35px;
+  height: 44px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.lect .main-button {
+  margin-top: px;
+}
 @media (max-width: 850px) {
   .lect .main-button {
     margin-top: 150px;
@@ -800,7 +813,31 @@ textarea {
 .lect p {
   color: #22222280;
 }
-
+.lect .main-button .dropdown .btn {
+  background-color: white;
+  border: none;
+  color: #22222240;
+  border-radius: 15px;
+  height: 44px;
+  width: 113px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lect .main-button .dropdown .dropdown-menu {
+  border: none;
+}
+.lect .main-button .dropdown .dropdown-menu li {
+  background-color: white;
+  color: #222222bf;
+  font-size: 14px;
+  text-align: start;
+}
+.lect .main-button .dropdown .dropdown-menu li:hover {
+  background-color: #a1c2f140;
+}
 /* end lectures*/
 /* start materials*/
 .materials {
@@ -1184,9 +1221,9 @@ textarea {
     margin-top: 150px;
   }
 }
-.the-audience .drop-shadow{
+.the-audience .drop-shadow {
   border-radius: 22px;
-  box-shadow: #0000000D 0px 3px 8px;
+  box-shadow: #0000000d 0px 3px 8px;
   width: 100%;
 }
 .the-audience .main-button .btn-warning {
@@ -1198,11 +1235,6 @@ textarea {
   justify-content: center;
 }
 
-@media (max-width: 850px) {
-  .lect .main-button {
-    margin-top: 150px;
-  }
-}
 .the-audience .text2 {
   color: #22222240;
   text-align: center;
@@ -1255,7 +1287,7 @@ textarea {
   border: none;
   color: #0a6ebd;
   height: 93px;
-  box-shadow: #E5E5E580 0px 3px 8px;
+  box-shadow: #e5e5e580 0px 3px 8px;
 }
 .the-audience .card:hover {
   border: 1px solid #5a96e380;
