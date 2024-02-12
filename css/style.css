@@ -1185,6 +1185,15 @@ textarea {
     margin-top: 150px;
   }
 }
+.lect .main-button {
+  margin-top: 100px;
+}
+
+@media (max-width: 850px) {
+  .lect .main-button {
+    margin-top: 150px;
+  }
+}
 .the-audience .text2 {
   color: #22222240;
   text-align: center;
