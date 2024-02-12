@@ -521,13 +521,12 @@ textarea {
 .assignment .main-content {
   border-radius: 20px;
   border: 1px solid #2222220d;
- 
 }
 .assignment .main-content .card-bg {
   background-color: #fbfbfb;
   border: none;
   border-radius: 20px;
-   color: #073051;
+  color: #073051;
 }
 .assignment .main-content .card-bg p {
   color: #22222280;
@@ -542,7 +541,7 @@ textarea {
 .assignment .card .card-bg h5 {
   font-weight: 800px;
 }
-.assignment .main-content .card-bg .title{
+.assignment .main-content .card-bg .title {
   width: 160px;
 }
 @media (max-width: 850px) {
@@ -1185,8 +1184,18 @@ textarea {
     margin-top: 150px;
   }
 }
-.lect .main-button {
-  margin-top: 100px;
+.the-audience .drop-shadow{
+  border-radius: 22px;
+  box-shadow: #0000000D 0px 3px 8px;
+  width: 100%;
+}
+.the-audience .main-button .btn-warning {
+  width: 177px;
+  border-radius: 35px;
+  height: 44px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 850px) {
@@ -1198,21 +1207,58 @@ textarea {
   color: #22222240;
   text-align: center;
   width: 150px;
-  border: 2px solid #0000001a;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .the-audience .text1 {
   color: #ffc436;
   text-align: center;
-  border: 2px solid #ffc436;
-  background-color: #fff;
+  border: none;
+  background-color: #ffc43626;
+  border-radius: 15px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.the-audience .main-button .dropdown .btn {
+  background-color: white;
+  border: none;
+  color: #22222240;
+  border-radius: 15px;
+  height: 44px;
+  width: 113px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.the-audience .main-button .dropdown .dropdown-menu {
+  border: none;
+}
+.the-audience .main-button .dropdown .dropdown-menu li {
+  background-color: white;
+  color: #222222bf;
+  font-size: 14px;
+  text-align: start;
+}
+.the-audience .main-button .dropdown .dropdown-menu li:hover {
+  background-color: #a1c2f140;
 }
 .the-audience .card {
   border: none;
   color: #0a6ebd;
   height: 93px;
+  box-shadow: #E5E5E580 0px 3px 8px;
 }
 .the-audience .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #5a96e380;
 }
 .the-audience p {
   color: #22222280;
@@ -1533,8 +1579,8 @@ textarea {
   color: white;
   font-size: 20px;
 }
-.content .stats-and-best-students .stats .info .fa-file-circle-check{
-  background-color: #A1E8CB;
+.content .stats-and-best-students .stats .info .fa-file-circle-check {
+  background-color: #a1e8cb;
 }
 .content .stats-and-best-students .stats .info div {
   display: flex;
@@ -1547,7 +1593,7 @@ textarea {
 .content .stats-and-best-students .stats .progress div[role="progressbar"] {
   --size: 7rem;
   --fg: #bde2f1;
-  --bg: #ECF3FE;
+  --bg: #ecf3fe;
   --pgPercentage: var(--value);
   animation: growProgressBar 3s 1 forwards;
   width: var(--size);
@@ -1567,7 +1613,7 @@ textarea {
   color: var(--fg);
 }
 .content .stats-and-best-students .stats .progress2 div[role="progressbar"] {
-  --fg: #A1E8CB;
+  --fg: #a1e8cb;
 }
 .content
   .stats-and-best-students
@@ -1616,7 +1662,7 @@ textarea {
     margin: 0;
   }
 }
-.duties .main-content { 
+.duties .main-content {
   padding: 20px;
   margin-top: 100px;
 }
@@ -1684,15 +1730,15 @@ textarea {
   position: absolute;
   left: 5px;
   top: 5px;
-   color: #073051;
+  color: #073051;
 }
-.duties .duty .duty-body .dropdown-menu{
+.duties .duty .duty-body .dropdown-menu {
   background-color: #f9f9f9;
   border: none;
   border-radius: 10px;
 }
-.duties .duty .duty-body .dropdown-menu a{
-   color: #073051;
+.duties .duty .duty-body .dropdown-menu a {
+  color: #073051;
 }
 .duties .duty .duty-body div:last-child {
   display: flex;
@@ -1885,8 +1931,7 @@ textarea {
 .add-duty .web-link > div {
   margin-top: 30px;
 }
-.add-duty .form-content .date-and-time input{
-  
+.add-duty .form-content .date-and-time input {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
   background-color: #fff;
@@ -1923,8 +1968,8 @@ textarea {
   color: rgba(34, 34, 34, 0.5);
   margin-top: 10px;
 }
-.add-duty .date-and-time span{
-  width:140px;
+.add-duty .date-and-time span {
+  width: 140px;
 }
 .add-duty .date-and-time .date-p {
   font-size: 14px;
@@ -1941,8 +1986,8 @@ textarea {
   margin-top: 30px;
 }
 .add-duty .grads div input {
-  width:328px;
-  border: 1px solid #0000001A;
+  width: 328px;
+  border: 1px solid #0000001a;
   height: 48px;
   border-radius: 8px;
 }
@@ -1970,7 +2015,7 @@ textarea {
   font-size: 15px;
   font-weight: 300;
 }
-.add-duty .uploadDutyNameFile{
+.add-duty .uploadDutyNameFile {
   color: #22222280;
   font-size: 15px;
   font-weight: 300;
@@ -2017,7 +2062,6 @@ textarea {
 .settings .drop .password-form {
   background-color: #ababab0d;
   padding: 0px 10px;
-  
 }
 
 .settings .drop .btn {
@@ -2025,7 +2069,6 @@ textarea {
   text-align: center;
   height: 48px;
   padding: 0;
-  
 }
 .settings .drop .btn:hover {
   color: #ffffff;
@@ -2173,8 +2216,8 @@ textarea {
   background-color: #ffc436;
   color: white;
 }
-.grads .exam-paragraph{
-  color:#22222280 ;
+.grads .exam-paragraph {
+  color: #22222280;
   font-size: 20px;
   font-weight: 300px;
 }
@@ -2191,7 +2234,7 @@ textarea {
 /* end add-exams  */
 /* start the-exams*/
 
-.the-exams{
+.the-exams {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -2200,110 +2243,100 @@ textarea {
   color: #073051;
 }
 @media (max-width: 850px) {
-  .the-exams{
+  .the-exams {
     padding-right: 0;
     margin: 0;
   }
 }
 
-
 @media (max-width: 850px) {
   .the-exams .main-content {
     margin-top: 150px;
-   
   }
- 
 }
 
-.the-exams .card{
+.the-exams .card {
   border: none;
   color: #073051;
- padding: 15px;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
 }
 
-.the-exams  .text1{
+.the-exams .text1 {
   color: #22222240;
   text-align: center;
   width: 120px;
-  border: 1px solid #0000001A;
-  
+  border: 1px solid #0000001a;
 }
-.the-exams  .text2{
-  color: #FFC436;
+.the-exams .text2 {
+  color: #ffc436;
   text-align: center;
-  border: 1px solid #FFC436;
+  border: 1px solid #ffc436;
 }
-
 
 .the-exams .student-grade {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 .the-exams .student-grade table {
   border-spacing: 0;
   text-align: center;
   background-color: white;
-   min-width: 900px;
+  min-width: 900px;
   width: 100%;
 }
 
 .the-exams .student-grade thead td {
-  background-color: #A1C2F140;
+  background-color: #a1c2f140;
   box-shadow: rgba(149, 157, 165, 0.089) 0px 8px 24px;
   font-weight: bold;
   color: #073051;
 }
 .the-exams .student-grade table td {
-  padding:13px ;
+  padding: 13px;
   height: 70px;
 }
 .the-exams .student-grade table tbody td {
-  
-   color: #073051;
+  color: #073051;
   transition: 0.3s;
-  
 }
 
-.the-exams .student-grade table   tbody tr:hover td {
-  background-color: #F8F8F8;
+.the-exams .student-grade table tbody tr:hover td {
+  background-color: #f8f8f8;
 }
-.the-exams .student-grade tr{
+.the-exams .student-grade tr {
   border-bottom: 15px solid white;
 }
 
-.the-exams .student-grade table tbody tr td a{
-  color:  #2D861E;
-  background-color: #38B12433;
-  border-radius:10px;
-  padding: 13px 20px ;
-   width: 130px;
-   
+.the-exams .student-grade table tbody tr td a {
+  color: #2d861e;
+  background-color: #38b12433;
+  border-radius: 10px;
+  padding: 13px 20px;
+  width: 130px;
 }
-.the-exams .student-grade table tbody tr .fa-ellipsis-vertical{
+.the-exams .student-grade table tbody tr .fa-ellipsis-vertical {
   color: #22222280;
 }
 .the-exams .student-grade table tbody tr .a a {
-  color:  #E1AE31;
-  background-color: #FFC43633;
-  border-radius:10px;
-  padding: 13px 20px ;
+  color: #e1ae31;
+  background-color: #ffc43633;
+  border-radius: 10px;
+  padding: 13px 20px;
   width: 130px;
 }
-.the-exams .student-grade table tbody tr td{
-  background-color: #F9F9F9;
- 
-  
+.the-exams .student-grade table tbody tr td {
+  background-color: #f9f9f9;
 }
-.the-exams .student-grade table tbody tr:nth-child(5){
+.the-exams .student-grade table tbody tr:nth-child(5) {
   border-bottom: none;
 }
 
 .the-exams .student-grade table tbody tr td:nth-child(6) {
- display: flex;
- align-items: center;
- text-align: center;
- justify-content: space-around;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
 /* end the-exams*/
 
@@ -2337,7 +2370,7 @@ border-radius: 15px;
 .md-exams .text1 {
   color: #22222240;
   text-align: center;
- 
+
   border: 1px solid #0000001a;
 }
 .md-exams .text2 {
@@ -2346,8 +2379,9 @@ border-radius: 15px;
   border: 1px solid #ffc436;
 }
 @media (max-width: 850px) {
-  .md-exams .text1 ,.md-exams .text2 {
-   font-size: 14px;
+  .md-exams .text1,
+  .md-exams .text2 {
+    font-size: 14px;
   }
 }
 
@@ -2360,41 +2394,39 @@ border-radius: 15px;
   font-weight: 500;
   line-height: 24px;
 }
-.md-exams .table1{
-  border: 1px solid #0000001A;
+.md-exams .table1 {
+  border: 1px solid #0000001a;
   border-radius: 15px;
   margin-top: 20px;
 }
 
-.md-exams .table1 td{
+.md-exams .table1 td {
   color: #22222280;
   padding: 15px;
 }
-.md-exams .btn1{
-  border: 1px solid #E63329;
-  color: #E63329;
+.md-exams .btn1 {
+  border: 1px solid #e63329;
+  color: #e63329;
   border-radius: 10px;
   padding: 5px 15px;
   background-color: white;
-
 }
-.md-exams .btn2{
-  border: 1px solid #0A6EBD;
-  color: #0A6EBD;
+.md-exams .btn2 {
+  border: 1px solid #0a6ebd;
+  color: #0a6ebd;
   border-radius: 10px;
   padding: 5px 15px;
   background-color: white;
-
 }
 .md-exams .table2 {
   width: 95%;
   border-spacing: 0;
 }
 .md-exams .table2 tbody .row1 td {
- height: 100px;
+  height: 100px;
 }
 .md-exams .table2 tbody .row2 td {
- height:200px;
+  height: 200px;
 }
 @media (max-width: 850px) {
   .md-exams .table2 tbody tr td {
@@ -2407,8 +2439,7 @@ border-radius: 15px;
 
 .md-exams .table2 td {
   padding: 15px;
-  border: 1px solid #0000001A;
-  
+  border: 1px solid #0000001a;
 }
 
 .md-exams .table2 tbody tr td:nth-child(1) {
@@ -2419,19 +2450,18 @@ border-radius: 15px;
   border-bottom: 1px solid #eee;
 }
 
-.md-exams .deg input{
+.md-exams .deg input {
   width: 68px;
   height: 32px;
   border-radius: 5px;
-  border: 1px solid #0000001A;
-  color: #0A6EBD;
+  border: 1px solid #0000001a;
+  color: #0a6ebd;
   text-align: center;
- margin-right: 10px;
-
+  margin-right: 10px;
 }
 
-.md-exams .deg input::placeholder{
-  color: #0A6EBD;
+.md-exams .deg input::placeholder {
+  color: #0a6ebd;
   text-align: center;
 }
 @media (max-width: 850px) {
@@ -2439,19 +2469,18 @@ border-radius: 15px;
     padding-top: 15px;
   }
 }
-.md-exams .main-content .table2 .row2 .date label{
+.md-exams .main-content .table2 .row2 .date label {
   padding-right: 10px;
-  color: #222222BF;
+  color: #222222bf;
   font-weight: 500;
 }
-.md-exams .main-content .table2 .row2 .date input{
+.md-exams .main-content .table2 .row2 .date input {
   width: 20px;
   height: 20px;
-   accent-color: #0A6EBD;
-   
+  accent-color: #0a6ebd;
 }
-.md-exams .main-content .table2 .color{
-  color: #222222BF;
+.md-exams .main-content .table2 .color {
+  color: #222222bf;
 }
 .md-exams .buttons {
   display: flex;
