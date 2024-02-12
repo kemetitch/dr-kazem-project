@@ -115,9 +115,36 @@
         </div>
           <!-- end header  -->
         <div class="row pt-5 d-flex justify-content-end">
-              <div class="col-lg-2 col-md-4  col-6  pb-4 main-button">
-                <button type="button" class="btn btn-warning text-light">اضافة محاضرة <i class="fa-solid fa-plus pe-3 "></i></button>
+               <div class="d-flex justify-content-end drop-shadow py-2 pt-3 row">
+            <div class="col-12 col-md-6 col-lg-4 main-button d-flex">
+              <div class="dropdown ps-4">
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  تصنيف
+                  <i class="fa-solid fa-chevron-down pe-2"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      من الاقدم الي الاحدث
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      من الاحدث الي الاقدم
+                    </button>
+                  </li>
+                </ul>
               </div>
+              <button type="button" class="btn btn-warning text-light">
+                اضافة محاضرة <i class="fa-solid fa-plus pe-3"></i>
+              </button>
+            </div>
+          </div>
 
           <div class="col-12">
             <div class="card">
